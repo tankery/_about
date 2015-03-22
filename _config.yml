@@ -1,8 +1,9 @@
 # Site settings
 title: Tankery
+subtitle: "Create stuff delights people."
 email: tankery.chen@gmail.com
 url: http://tankery.me
-description: "Create stuff makes people happy."
+description: "Personal site of Tankery Chen the App developer."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -19,23 +20,21 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-#  - title: twitter
-#    url: http://twitter.com/jekyllrb
-#  - title: facebook
-#    url:
-#  - title: stack-overflow
-#    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/tankery
+  - title: weibo
+    url: http://weibo.com/u/1658528753
+  - title: google-plus
+    url: https://plus.google.com/+TankeryChen
   - title: github
     url: http://github.com/tankery
+  - title: bitbucket
+    url: http://bitbucket.org/tankery
 
 # Postal address (add as many lines as necessary)
 address:
   - line: tankery.chen@gmail.com
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Jekyll theme based on <a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
