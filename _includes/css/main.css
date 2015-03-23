@@ -405,6 +405,10 @@ footer .footer-below {
     outline: 0;
 }
 
+.blog-section img {
+    margin-bottom: 30px;
+}
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;

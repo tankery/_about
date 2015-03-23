@@ -34,7 +34,7 @@ address:
   - line: tankery.chen@gmail.com
 
 # Credits content
-credits: 'Jekyll theme based on <a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer bootstrap</a>.'
+credits: 'Made by Jekyll theme based on <a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
