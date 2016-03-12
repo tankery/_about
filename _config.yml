@@ -39,3 +39,7 @@ credits: 'Made by Jekyll theme based on <a href="https://github.com/jeromelachau
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Plugins
+gems:
+  - jekyll-redirect-from
