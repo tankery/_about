@@ -3,9 +3,14 @@ rvm:
     - 2.4
 branches:
   only:
-  - gh-pages
+    - gh-pages
 
-install: gem install jekyll -v 3.3.1 && gem install s3_website
-script: jekyll build
-after_success: s3_website push
+before_install:
+    - gem install jekyll -v 3.3.1
+    - gem install jekyll-redirect-from
+    - gem install s3_website
+
+install: jekyll build
+
+script: s3_website push
 
