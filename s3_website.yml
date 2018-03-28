@@ -37,7 +37,7 @@ s3_bucket: about.site.tankery.me
 
 # s3_reduced_redundancy: true
 
-# cloudfront_distribution_id: your-dist-id
+cloudfront_distribution_id: EJ8CK2XQJ2KK5
 
 # cloudfront_distribution_config:
 #   default_cache_behavior:
