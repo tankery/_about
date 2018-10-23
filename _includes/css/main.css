@@ -204,6 +204,10 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+section img.title {
+    margin-bottom: 30px;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -403,10 +407,6 @@ footer .footer-below {
 
 .scroll-top .btn:focus {
     outline: 0;
-}
-
-.blog-section img {
-    margin-bottom: 30px;
 }
 
 .portfolio-modal .modal-content {

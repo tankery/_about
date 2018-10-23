@@ -1,12 +1,13 @@
 ---
 layout: default
 modal-id: 5
+title: Zigbee Vote
 date: 2012-06-23
 img: Satellite.png
 background: hsl(348, 70%, 70%)
 alt: Zigbee Vote
 meta-data:
-  - name: Client
+  - name: Organization
     text: Dian Group
     url: http://dian.hust.edu.cn/
   - name: Date
@@ -14,14 +15,8 @@ meta-data:
   - name: Category
     text: Embedded Development
     url: /
+language: zh
 ---
-
-Zigbee vote is a embedded system for classroom education. Support by [Dian Group](http://dian.hust.edu.cn/).
-
-The system contains a bounch of personal device communicate with base station on PC using Zigbee chip and protocal stack.
-Base station worked as a HID device to communicate with PC, PC software writen by QT.
-
-<br>
 
 Zigbee vote 是一套利用Zigbee技术进行通讯的无线投票器系统。
 是[Dian团队](http://dian.hust.edu.cn/)的一个项目。

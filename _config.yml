@@ -2,8 +2,9 @@
 title: Tankery
 subtitle: "Create stuff delights people."
 email: tankery.chen@gmail.com
-url: http://tankery.me
-description: "Personal site of Tankery Chen the App developer."
+url: https://tankery.me
+baseurl: ""
+description: "Personal site of Tankery Chen the Android developer."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -20,14 +21,16 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: weibo
-    url: http://weibo.com/u/1658528753
-  - title: google-plus
-    url: https://plus.google.com/+TankeryChen
   - title: github
     url: http://github.com/tankery
-  - title: bitbucket
-    url: http://bitbucket.org/tankery
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/1038900
+  - title: google-plus
+    url: https://plus.google.com/+TankeryChen
+  - title: weibo
+    url: http://weibo.com/u/1658528753
+  # - title: bitbucket
+  #   url: http://bitbucket.org/tankery
 
 # Postal address (add as many lines as necessary)
 address:
@@ -39,6 +42,10 @@ credits: 'Made by Jekyll theme based on <a href="https://github.com/jeromelachau
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+  - main_sections
+  - portfolios
 
 # Plugins
 gems:

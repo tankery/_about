@@ -1,0 +1,27 @@
+<!-- All Sections -->
+{% assign sorted_sections = (site.main_sections | where: 'language', page.language | sort: 'position') %}
+{% for section in sorted_sections %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+  <section {% if thecycle == 'odd' %} class="success" {% endif %} id="{{ section.anchor_id }}">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2>{{ section.title }}</h2>
+              {% if thecycle == 'odd' %}
+              <hr class="star-light">
+              {% else %}
+              <hr class="star-primary">
+              {% endif %}
+              {% if section.image %}
+              <img class="title" src="{{site.baseurl}}/img/{{section.image}}" class="img-responsive img-centered" alt="{{ section.title }}">
+              {% endif %}
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+              {{ section.content }}
+          </div>
+      </div>
+  </div>
+  </section>
+{% endfor %}
